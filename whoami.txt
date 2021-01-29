@@ -1,0 +1,9 @@
+
+There are a few of the lines that I am adding with VIM
+I don't understand why all of these tilde's are lining the left side of the screen.
+
+At one point there were a few lines about how I was writing lines with EMACS, but apparently they didn't save,
+So much for thinking that EMACS looked pretty straight forward.
+
+This here nano program is actually the one that I primarily use for my Raspberry Pi, so I guess I chose the wrong
+text editor from the beginning. Oh well.
