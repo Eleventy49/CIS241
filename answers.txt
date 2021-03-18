@@ -1,0 +1,1 @@
+1: sed -e 's/color/colour/g' -e 's/honor/honour/g' -e 's/behavior/behaviour/g' -e 's/humor/humour/g' /usr/share/dict/american-english > new_dict.txt
