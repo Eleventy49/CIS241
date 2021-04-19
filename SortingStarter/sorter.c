@@ -1,6 +1,8 @@
 #include "sorter.h"
 #include <stdio.h>
 #include <string.h>
+
+//Set up for Quicksort by splitting the steam of characters into a 2-Dimensional array of characters, or an "Array of Strings"
 void sort(char** contents, int size) {
 	char array[size][size];
 	int externalCounter = 0;
@@ -20,7 +22,7 @@ void sort(char** contents, int size) {
 	quicksort(array, 0, ((float)size / sizeof(char))  -1);
 }
 
-
+//Quicksort, adapted from CIS 163 code
 void quicksort(char **contents, int first, int last) {
 int i, j, pivot, temp, character;
 if(first<last)	{

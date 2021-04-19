@@ -14,8 +14,7 @@ int main(int argc, char** argv){
 	char* mem;
 	int size_of_file=load_file(argv[1] , &mem );	
 	// Sort the file with the function you wrote.
-	sort(&mem, size_of_file);	
-	
+	sort(&mem, size_of_file);		
 	// Write out the new file.
 	save_file(argv[2], mem,size_of_file);
 
